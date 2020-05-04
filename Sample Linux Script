@@ -1,0 +1,18 @@
+# !/bin/bash
+if `[ ! -d /chosen_directory ]`
+then
+      echo "chosen_directory directory can not be created"
+      echo `ls -sh`
+else
+      echo `mkdir chosen_directory`
+fi
+
+
+# This script creates 1000 subdirectories named temp1_$NUM where $NUM ranges from 1 to 1000
+# !/bin/bash
+for NUM in {1. .1000}
+do
+      echo `mkdir temp1_$NUM`
+done
+
+# The script above can be excuted using the following command: mkdir temp2_{1..1000}
