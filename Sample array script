@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+        double* arr = malloc(10 * sizeof(double));
+        
+        int i ;
+        for (i = 0; i <10; i++)
+        {
+                arr[i] = (double) i;
+        }
+        
+        printf("address: %p\n", arr);
+        
+        for (i = 0; i < 10; i++)
+        {
+                printf("\tValue of arr[%d] = %f\n", i, i[arr]);
+                
+        }
+        free(arr)
+        
+        
+        return 0;
+        
+}
+                
