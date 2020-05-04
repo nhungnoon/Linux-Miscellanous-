@@ -1,0 +1,22 @@
+# Find current date and time
+date
+
+# List current running process
+ps
+
+# Sort in reverse alpha order
+ls |sort -r
+
+# List all files and their details
+ls -ltrh
+
+# Change permission for the file to be executable
+chmod u+x example_script.sh
+
+# Time the execution time of a script
+time ./file.sh
+
+# To execute .sh file
+./file.sh
+
+
