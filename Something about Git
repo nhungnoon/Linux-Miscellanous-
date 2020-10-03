@@ -1,0 +1,4 @@
+Clone: git clone
+Create new branch: git branch <new brand>
+Check which branch: git status
+Switch branch: git checkout <the branch you want to switch>
