@@ -1,0 +1,3 @@
+def sing_song(h):
+  song = str(h) + str(h) + 'wow'
+  return song
