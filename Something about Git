@@ -1,4 +1,4 @@
-Clone: git clone
+Clone: git clone - make sure you have ssh keys set up
 Create new branch: git branch <new brand>
 Check which branch: git status
 Switch branch: git checkout <the branch you want to switch>
